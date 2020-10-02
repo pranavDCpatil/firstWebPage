@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site | Pranav's Web Page</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        header{
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(tech3.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        ul{
+            float: right;
+            list-style-type: none;
+            margin-top: 25px;
+        }
+
+        ul li{
+            display: inline-block;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.5s ease;
+        }
+
+        ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+
+        ul li.active a{
+            background-color: red;
+            color: #fff;
+        }
+
+        
+        .logo img{
+            float: left;
+            width: 150px;
+            height: auto;
+            cursor: pointer;
+            background: radial-gradient(black, white);
+            border-radius: 5px;
+        }
+
+        .main{
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .title{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .title h1{
+            color: #fff;
+            font-size: 60px;
+            text-align: center;
+        }
+
+        .button{
+            position: absolute;
+            top: 62%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn{
+            border: 1px solid #fff;
+            padding: 10px 30px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.5s ease;
+        }
+
+        .btn:hover{
+            background-color: red;
+            color: #fff;
+        }
+
+        .cpy{
+            position: absolute;
+            top: 95%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        
+            padding: 10px 30px;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="htmlCssJs.png" alt="Tech Logo">
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>
+                <font color="red">PRANAV</font>'S WEB WORLD
+            </h1>
+        </div>
+
+        <div class="button">
+            <a href="#" class="btn">WATCH VIDEO</a>
+            <a href="#" class="btn">LEARN MORE</a>
+        </div>
+
+        <div class="cpy">
+            &copy; All rights reserved to Pranav Dipika Chandrakant Patil. 2020.
+        </div>
+
+    </header>
+</body>
+</html>
